@@ -1,0 +1,59 @@
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left top, #000000, #282728, #4a4a4b, #6f7072, #95999b, #9fafb3, #a8c6c7, #b4ddd7, #9ee4db, #84ebe0, #5ff2e6, #00f8ec);}
+
+.calculator{
+  padding: 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right bottom, #c7c5c5, #c2c2c2, #acacac, #aaaaaa, #bebfc0, #d0d5d6, #a8c6c7, #b4ddd7, #9ee4db, #84ebe0, #5ff2e6, #00f8ec);  box-shadow: 0 0 10px rgb(26, 25, 25);
+}
+
+form input{
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.507) ;
+  margin: 4px;
+  border-radius: 8px;
+  /* color: white; */
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+
+}
+
+ form input:hover{
+  background-color: black ;
+  color: white;
+}
+.display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 30px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+form input.equal{
+  width: 127px;
+  
+
+}
+
+/* form input.equal:hover{
+  color: white;
+  background-color: rgb(87, 131, 131) ;
+} */
